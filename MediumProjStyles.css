@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=gt-super&display=swap');
+
+/* Applying Style To All elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "gt-super", Georgia, "Cambria", "Times New Roman", Times, serif;
+}
+
+.main-header {
+    height: 70px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.links {
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+.links .gt-strtd {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 14px;
+    
+}
+
+.logo {
+    font-size: 36px;
+}
+
+.yell-color {
+    background-color: rgb(241, 180, 37);
+   
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.med-icon, .logo h4 {
+    display: inline-block;
+}
+
+
+.second-section {
+    height: 525px;
+    border-bottom: 1px solid black;
+    top: 70px;
+    left: 0;
+}
+
+.second-section-content-wrapper {
+    padding: 180px 60px 0 60px;
+}
+
+.second-sub-section{
+    
+    width: 650px;
+    display: inline-block;
+}
+
+.second-sub-section h1 {
+    font-size: 75px;
+}
+
+.second-sub-section p{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.second-sub-section button {
+    background-color: black;
+    color: white;
+    padding: 12px 36px;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+
+/* Third Section styling */
+
+.third-section {
+    height: 350px;
+    border-bottom: 1px solid rgb(210, 209, 209);
+}
+
+.arrow-trend-self {
+    font-size: 13px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.third-section-header {
+    display: flex;
+    padding: 40px 0px 15px 60px;
+    
+}
+
+.third-section-header h5 {
+    text-transform: uppercase;
+    padding-left: 15px 
+
+}
+
+.card-section , .card-img-author, .card-content-wrapper{
+    display: flex;
+}
+
+.card-section {
+    flex-wrap: wrap;
+}
+
+.card-wrapper {
+    margin: 0px 60px;
+}
+
+.card {
+    height: 140px;
+    width: 380px;
+}
+
+.card-content-details-wrapper {
+    margin-left: 25px;
+}
+
+.card-img-author img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.card-img-author a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.topic-header, .date-status {
+    margin-top: 10px;
+}
+
+.date-status span{
+    color: grey;
+    font-size: 13px;
+}
+
+.card-content-wrapper .card-sno {
+    font-size: 36px;
+    color: rgb(233, 232, 232);
+}
+
+/* Fourth Section Styling */
+.fourth-section {
+    padding: 50px 60px;
+    /* float: left; */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.article-author-img {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.article-author-img img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.article-author-img a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.article-topic-header h5 {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.article-topic-description {
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: gray;
+
+}
+
+.article-topic-description p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.article-card-img img {
+    margin-left: 10px;
+    height: 150px;
+}
+
+.article-card {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.span-styling {
+    padding: 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(206, 204, 204);
+}
+
+span.book-mark {
+    float: right;
+    font-size: 16px;
+}
+span.book-mark::after{
+    content: "";
+    display: block;
+    clear: right;
+}
+
+/* Footer styling */
+
+.page-footer {
+    /* float: right; */
+    top: 400px;
+    padding-top: 50px ;
+    padding-right: 80px;
+    width: 475px;
+    height: 400px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 75px;
+}
+
+.page-footer div.footer-container {
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 100px; */
+}
+
+.footer-section-header {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-links-one {
+    height: 170px;
+    border-bottom: 1px solid rgb(231, 229, 229);;
+}
+
+.footer-links-one span {
+    color: rgb(109, 107, 107);
+    border: 1px solid rgb(231, 229, 229);
+    display: inline-block;
+    padding: 8px 10px;
+    margin: 5px 0;
+    margin-right: 8px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.footer-links-two {
+    padding-top: 25px;
+}
+.footer-links-two a { 
+    text-decoration: none;
+    color: rgb(109, 107, 107);
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 14px;
+
+}
+
+.page-footer::after{
+    content: "";
+    display: block;
+    clear: right;
+}
+
+.parent-fourth-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
